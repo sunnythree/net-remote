@@ -1,0 +1,5 @@
+编译：
+/*该项目独立于supernova系统，编译系统并不会编译该项目*/
+/*该项目所依赖的库在target/isdb.nugget/tmp_image/mslib/，编译需要确保该目录和相应库存在*/
+1.首先要编译系统，并且执行make image_all 
+2.在当前目录执行make

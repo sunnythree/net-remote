@@ -1,0 +1,9 @@
+#ifndef MY_DFB_H
+#define MY_DFB_H
+#include <directfb.h>
+
+void dfb_sendir(int ekey);
+DFBEnumerationResult input_device_callback(DFBInputDeviceID id, DFBInputDeviceDescription desc, void* data);
+void directfb_init();
+
+#endif

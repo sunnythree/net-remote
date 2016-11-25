@@ -1,0 +1,18 @@
+button {
+	position:absolute;
+	background-color:black;
+	color:white;
+	border-width:1px;
+	border-radius:10px;
+	width:54px;
+	height:30px;
+	font-size:20px
+}
+span {
+	position:absolute;
+	background-color:darkgray;
+	color:black;
+	width:34px;
+	height:20px;
+	text-align:center;
+}

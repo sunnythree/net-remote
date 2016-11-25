@@ -1,0 +1,12 @@
+#ifndef MY_CONVERT2EKEY_H
+#define MY_CONVERT2EKEY_H
+
+struct ekey_type  
+{
+    char *name; /* 键名 */
+    int ekey;   /* key value */
+};
+
+int convert_name2ekey(char *name);
+
+#endif

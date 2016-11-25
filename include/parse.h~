@@ -1,0 +1,6 @@
+#ifndef MY_PARSE_H
+#define MY_PARSE_H
+
+int http_send_response(int soc, char *buf, int buf_len);
+
+#endif

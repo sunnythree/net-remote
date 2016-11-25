@@ -1,0 +1,9 @@
+#ifndef MY_SOCKET_H
+#define MY_SOCKET_H
+#include <sys/socket.h>
+
+int server_init(int port);
+int server_deal_request(int socket_fd);
+int server_exit(int socket_fd);
+
+#endif
